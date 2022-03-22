@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trapper - Brasil</title>
+
+    <!-- Link para pegar o estilo CSS dos servidores de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- <style>
+            .bg-roxo{
+                background-color: rgb(82, 137, 219);
+            }
+        </style> -->
+    <style>
+         
+         * {
+            scroll-behavior: smooth !important;
+        }
+        .bg-roxo {
+            background-color: rgb(16, 16, 17);
+        }
+
+        .bg-jub {
+            background-color: rgba(4, 165, 12, 0.979);
+        }
+
+        .tm-social {
+            height: 25px;
+            width: 25px;
+        }
+
+        .tamanho {
+            height: 950px;
+        }
+
+        .imagem {
+            height: 950px;
+            width: 100vw;
+        }
+        
+       
+    </style>
+
+    
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-roxo">
+        <a class="navbar-brand" href="#">Trapper- Brasil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Contato
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/caique-ramos-b901ba157/"
+                            target="_blank">Linkedin</a>
+                        <a class="dropdown-item" href="https://github.com/caiqueramos08" target="_blank">Github</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.instagram.com/caco.8/"
+                            target="_blank">Instagram</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Menu -->
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide m-0 tamanho" data-ride="carousel"
+        style="width: 100%; display: inline-block;">
+        <ol class="carousel-indicators m-0">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner m-0">
+            <div class="carousel-item active">
+                <img class="imagem img-fluid" src="https://s2.glbimg.com/6-Bf6-619Zqj-Dx_Kq7HgIZTNPg=/smart/e.glbimg.com/og/ed/f/original/2020/05/08/pedro_darua_c2a2465_1.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Orochi</h5>
+                    <p>Album: Celebridade</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="imagem img-fluid" src="https://s2.glbimg.com/3-hOrcHZPKpegywgOl61YlKhaj4=/e.glbimg.com/og/ed/f/original/2021/10/13/filipe-ret.jpg" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Filipe Ret</h5>
+                    <p>Album: Audaz </p>
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <img src="https://www.rbsdirect.com.br/imagesrc/26526947.jpg?w=700" class="imagem img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Matúe</h5>
+                    <p>Album: Máquina do Tempo.</p>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+    <!--/Carousel-->
+
+    <!--Jumbotron-->
+    <div class="container-fluid p-0 m-0" >
+        <div class="jumbotron jumbotron-fluid bg-roxo text-light my-0 bg-jub" style="margin-top: -10px !important">
+            <div class="container">
+                <h1 class="display-4">Conheça o Trapper Brasileiro</h1>
+                <p class="lead">Conheça Trappers brasileiro e seus sucessos e quais plataformas e divulgado suas Musicas.</p>
+            </div>
+        </div>
+    </div>
+    <!--/Jumbotron-->
+
+    <div class="container">
+        <!--Cards-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://febract.org.br/portal/wp-content/uploads/2020/04/SPOTIFY-LOGO-300x247.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Spotify</h5>
+                        <p class="card-text">O Spotify tem música para todos os momentos. ... Milhões de músicas e podcasts para explorar.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Última atualização 3 minutos atrás</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://marcas-logos.net/wp-content/uploads/2020/03/YouTube-Logo-1-600x375.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">YouTube</h5>
+                        <p class="card-text">Aproveite vídeos e músicas que você ama, envie e compartilhe conteúdo original com amigos, parentes e o mundo no YouTube..</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Última atualização 3 minutos atrás</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://logos-world.net/wp-content/uploads/2021/03/Deezer-Symbol-700x394.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Deezer</h5>
+                        <p class="card-text">A Deezer é um serviço de streaming de música fundado por Daniel Marhely, em 2007, na França. A empresa foi criada por Marhely com o objetivo de facilitar
+                        o acesso à música para os seus amigos, mas rapidamente investidores e gravadoras apoiaram a proposta</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Última atualização 3 minutos atrás</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Cards-->
+
+
+        <!--Texto e video-->
+
+        <div class="row mt-5 mb-5" id="sobre">
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jBE_X3cMCyM"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-md-6 ">
+                <h3 class="text-center">Cantor de Traapper com mais sucesso!</h3>
+                <P>  Aos 21 anos, Orochi é o grande nome do trap nacional. A alcunha escolhida veio de “The King Of Fighters”,
+                videogame de luta lançado nos anos 1990. Com três milhões de seguidores no Instagram,
+                 ele é o mais novo fenômeno do trap nacional. “Orochi foi um nome que bateu na minha cabeça.!</P>
+                
+
+            </div>
+            <!--/Texto e video-->
+        </div>
+
+        <!--Formulario de contato-->
+        
+        
+        <h4 class="text-center"> Entre em contato</h4>
+        <div class="row">
+            <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31754308.356149822!2d-69.6865109274439!3d-13.702797008748323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c59c7ebcc28cf%3A0x295a1506f2293e63!2sBrasil!5e0!3m2!1spt-BR!2sbr!4v1647961577610!5m2!1spt-BR!2sbr"
+                         style="border:0;" allowfullscreen="" loading="lazy" class="w-100" height="100%"></iframe>
+                </div>
+           
+
+            <div class="col-md-6">
+                <form class="needs-validation" novalidate>
+                    <div class="">
+                        <div class="w-100">
+                            <div class="form-floating">
+                                <label for="floatingInputGrid">Email:</label>
+                                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                                    value="email@examplo.com">
+                                
+                            </div>
+                        </div>
+                        <div class="w-100 my-3">
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                                    <option selected>Selecione Seu Cantor Favovito:</option>
+                                    <option value="1">Orochi</option>
+                                    <option value="2">Filipi Ret</option>
+                                    <option value="3">Matúe</option>
+                                </select>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-floating">
+                        <label for="floatingTextarea2">Commentario:</label>
+                        <textarea class="form-control" placeholder="Comente Aqui!" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                        
+                    </div>
+                    
+                   
+                    <div class="w-100 position-relative my-2">
+                        <label for="validationTooltip03" class="form-label">Cidade:</label>
+                        <input type="text" class="form-control" id="validationTooltip03" required>
+                        <div class="invalid-tooltip">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    
+                    <div class="w-100 ">
+                        <button type="button" class="btn btn-outline-danger my-2">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        
+        <!--/Formulario de contato-->
+
+        <!--Validação-->
+        
+
+        <!--/Validação-->
+
+        <!--Rodapé-->
+        <hr>
+        <footer>
+            <div class="row mb-3">
+                <div class="col-md-12 d-flex justify-content-center">
+
+                    <a href="https://github.com/caiqueramos08" target="_blank" class="p-2">
+                        <img class="tm-social " src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Logo do GitHub">
+                    </a>
+                    <a href="https://www.instagram.com/caco.8/" target="_blank" class="p-2">
+                        <img class="tm-social " src="https://a-static.mlcdn.com.br/618x463/adesivo-de-parede-100x100cm-logo-instagram-profissoes-ref-ade0840-nebula-decor/nebuladecor/810a4c0c878911eb9b484201ac1850e0/655e797034f33b73aa777a34926b2ac3.jpg" alt="Logo do Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/caique-ramos-b901ba157/" target="_blank" class="p-2">
+                        <img class="tm-social " src="https://img2.gratispng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" alt="Logo do Linkedin">
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">
+                        Site oficial do autor: Caco &copy;
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!--Rodapé-->
+    </div>
+
+    <!-- Scripts necessarios para utilização dos codigos JS do bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
